@@ -13,6 +13,6 @@ The app uses the following technologies/libraries/patterns:
 
 ## Screenshots
 
-![Screenshots](/docs/screenshot.png?raw=true “Screenshots”)
+![Screenshots](/docs/screenshot.png)
 
 
