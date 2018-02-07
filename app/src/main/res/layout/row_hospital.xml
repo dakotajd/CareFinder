@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/hospital_row_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?selectableItemBackground">
+
+    <TextView
+        android:id="@+id/hospital_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ellipsize="none"
+        android:inputType="textCapWords|textNoSuggestions|textMultiLine"
+        android:maxLines="6"
+        android:textSize="16sp"
+        android:scrollHorizontally="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/hospital_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap"
+        android:duplicateParentState="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        tools:text="Hospital Name"/>
+
+    <TextView
+        android:id="@+id/hospital_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:inputType="text|textCapWords|textMultiLine|textNoSuggestions|textPostalAddress"
+        android:maxLines="6"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        app:layout_constraintBottom_toTopOf="@+id/hospital_phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hospital_name"
+        app:layout_constraintWidth_default="wrap"
+        android:duplicateParentState="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:text="@string/no_address_available"/>
+
+    <TextView
+        android:id="@+id/hospital_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:inputType="text|phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hospital_address"
+        app:layout_constraintVertical_bias="0.0"
+        android:duplicateParentState="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        tools:text="262-989-2323"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>

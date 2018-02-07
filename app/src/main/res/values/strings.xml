@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">CareFinder</string>
+
+    <!-- Hospital search options -->
+    <string-array name="search_options">
+        <item>Show all hospitals</item>
+        <item>Search by name</item>
+        <item>Search by city</item>
+        <item>Search by state</item>
+        <item>Search by city, state</item>
+        <item>Search by county</item>
+    </string-array>
+
+    <!-- Input field hints -->
+    <string name="hospital_name">Hospital Name</string>
+    <string name="provider_id">Provider ID</string>
+    <string name="hospital_location">Location</string>
+    <string name="hospital_phone">Phone Number</string>
+    <string name="hospital_type">Hospital Type</string>
+    <string name="hospital_ownership">Hospital Ownership</string>
+    <string name="has_emergency_services">Has Emergency Services</string>
+    <string name="not_available">Not available</string>
+    <string name="search_hint">Search</string>
+    <string name="search_for_hospitals">Search for hospitals</string>
+    <string name="no_address_available">No address available</string>
+
+    <!-- Hospital emergency services spinner options -->
+    <string-array name="emergency_services_options">
+        <item>N/a</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <!-- Fragment tags -->
+    <string name="hospital_detail_fragment">HospitalDetailFragment</string>
+
+    <!-- Menu options -->
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="retry">Retry</string>
+    <string name="clear">Clear</string>
+    <string name="submit">Submit</string>
+
+    <!-- Validation errors -->
+    <string name="address_not_valid">The address that was picked is not valid. Please choose another address.</string>
+    <string name="no_location_selected">No location has been selected</string>
+    <string name="required_field">This field is required</string>
+    <string name="phone_not_valid">The phone number must be a valid U.S. phone number with an area code</string>
+    <string name="valid_city_state">The format must match \'city, state\'</string>
+
+    <!-- Network error messages -->
+    <string name="no_hospitals_found">No were hospitals found.</string>
+    <string name="no_hospitals_found_param">No were hospitals found with the specified search term.</string>
+    <string name="network_error">A network error occurred. Check your internet connection and try again.</string>
+    <string name="error_creating_hospital">Error creating hospital. Ensure the provider id is not taken.</string>
+    <string name="error_updating_hospital">Error updating hospital. Ensure the provider id is not taken.</string>
+    <string name="error_executing_request">Error executing request. Ensure the location you have chosen is valid.</string>
+
+    <!-- Success messages -->
+    <string name="hospital_created">Hospital successfully created</string>
+    <string name="hospital_updated">Hospital successfully updated</string>
+    <string name="hospital_deleted">Hospital successfully deleted</string>
+
+    <!-- Tab titles -->
+    <string name="hospital_map">Map</string>
+    <string name="hospital_list">Hospital List</string>
+</resources>

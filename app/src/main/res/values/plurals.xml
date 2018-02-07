@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="showingHospitals">
+        <item quantity="other">Showing %d hospitals</item>
+        <item quantity="zero">Showing %d hospitals</item>
+        <item quantity="one">Showing %d hospital</item>
+        <item quantity="many">Showing %d hospitals</item>
+    </plurals>
+
+    <plurals name="hospitalsFound">
+        <item quantity="other">%d hospitals found</item>
+        <item quantity="zero">%d hospitals found</item>
+        <item quantity="one">%d hospital found</item>
+        <item quantity="many">%d hospitals found</item>
+    </plurals>
+</resources>
